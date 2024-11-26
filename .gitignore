@@ -1,0 +1,70 @@
+# Logs
+logs/
+*.log
+*.log.*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Arquivos de compilação e de construção
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.zip
+*.tar.gz
+*.rar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+target/
+out/
+
+# Dependências de bibliotecas externas
+lib/
+lib_managed/
+
+# Arquivos temporários e caches
+.cache/
+*.swp
+*.swo
+*.swn
+*.bak
+# Arquivos do sistema
+.DS_Store      # Para MacOS
+Thumbs.db      # Para Windows
+
+# Arquivos de configuração do sbt
+.project/
+.build/
+dist/
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+# ScalaTest reports
+test-reports/
+
+# Arquivos do Spark
+spark-warehouse/
+spark-events/
+metastore_db/
+.derby.log
+spark-warehouse/
+eventLogs/
+*.crc
+*.snappy
+
+# Jupyter Notebooks (no caso de notebooks Plotly)
+.ipynb_checkpoints/
+*.ipynb
